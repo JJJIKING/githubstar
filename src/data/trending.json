@@ -1,0 +1,1310 @@
+{
+  "lastUpdated": "2026-03-23T08:59:07.321Z",
+  "trending_daily": [],
+  "trending_weekly": [],
+  "trending_monthly": [],
+  "overall_yearly": [
+    {
+      "id": 1061953414,
+      "name": "skills",
+      "full_name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stargazers_count": 100489,
+      "language": "Python",
+      "html_url": "https://github.com/anthropics/skills",
+      "owner": {
+        "login": "anthropics",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76263028?v=4"
+      }
+    },
+    {
+      "id": 1136590548,
+      "name": "everything-claude-code",
+      "full_name": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stargazers_count": 99731,
+      "language": "JavaScript",
+      "html_url": "https://github.com/affaan-m/everything-claude-code",
+      "owner": {
+        "login": "affaan-m",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124439313?v=4"
+      }
+    },
+    {
+      "id": 1075372545,
+      "name": "agency-agents",
+      "full_name": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "stargazers_count": 60060,
+      "language": "Shell",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "owner": {
+        "login": "msitarzewski",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1972242?v=4"
+      }
+    },
+    {
+      "id": 955620917,
+      "name": "context7",
+      "full_name": "upstash/context7",
+      "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+      "stargazers_count": 50228,
+      "language": "TypeScript",
+      "html_url": "https://github.com/upstash/context7",
+      "owner": {
+        "login": "upstash",
+        "avatar_url": "https://avatars.githubusercontent.com/u/74989412?v=4"
+      }
+    },
+    {
+      "id": 1106996539,
+      "name": "ui-ux-pro-max-skill",
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "stargazers_count": 48421,
+      "language": "Python",
+      "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "owner": {
+        "login": "nextlevelbuilder",
+        "avatar_url": "https://avatars.githubusercontent.com/u/246974152?v=4"
+      }
+    },
+    {
+      "id": 1006414368,
+      "name": "OpenCut",
+      "full_name": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "stargazers_count": 47228,
+      "language": "TypeScript",
+      "html_url": "https://github.com/OpenCut-app/OpenCut",
+      "owner": {
+        "login": "OpenCut-app",
+        "avatar_url": "https://avatars.githubusercontent.com/u/217499887?v=4"
+      }
+    },
+    {
+      "id": 1078079172,
+      "name": "awesome-claude-skills",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stargazers_count": 47070,
+      "language": "Python",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "owner": {
+        "login": "ComposioHQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/128464815?v=4"
+      }
+    },
+    {
+      "id": 1062356571,
+      "name": "Mole",
+      "full_name": "tw93/Mole",
+      "description": "🐹 Deep clean and optimize your Mac.",
+      "stargazers_count": 43436,
+      "language": "Shell",
+      "html_url": "https://github.com/tw93/Mole",
+      "owner": {
+        "login": "tw93",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8736212?v=4"
+      }
+    },
+    {
+      "id": 965615190,
+      "name": "BMAD-METHOD",
+      "full_name": "bmad-code-org/BMAD-METHOD",
+      "description": "Breakthrough Method for Agile Ai Driven Development",
+      "stargazers_count": 41813,
+      "language": "JavaScript",
+      "html_url": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "owner": {
+        "login": "bmad-code-org",
+        "avatar_url": "https://avatars.githubusercontent.com/u/224091849?v=4"
+      }
+    },
+    {
+      "id": 1104332987,
+      "name": "MiroFish",
+      "full_name": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "stargazers_count": 40232,
+      "language": "Python",
+      "html_url": "https://github.com/666ghj/MiroFish",
+      "owner": {
+        "login": "666ghj",
+        "avatar_url": "https://avatars.githubusercontent.com/u/110395318?v=4"
+      }
+    },
+    {
+      "id": 1179264259,
+      "name": "gstack",
+      "full_name": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "stargazers_count": 39920,
+      "language": "TypeScript",
+      "html_url": "https://github.com/garrytan/gstack",
+      "owner": {
+        "login": "garrytan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19957?v=4"
+      }
+    },
+    {
+      "id": 1010681419,
+      "name": "learn-claude-code",
+      "full_name": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "stargazers_count": 36500,
+      "language": "TypeScript",
+      "html_url": "https://github.com/shareAI-lab/learn-claude-code",
+      "owner": {
+        "login": "shareAI-lab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/189210346?v=4"
+      }
+    },
+    {
+      "id": 1147094660,
+      "name": "nanobot",
+      "full_name": "HKUDS/nanobot",
+      "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
+      "stargazers_count": 35622,
+      "language": "Python",
+      "html_url": "https://github.com/HKUDS/nanobot",
+      "owner": {
+        "login": "HKUDS",
+        "avatar_url": "https://avatars.githubusercontent.com/u/118165258?v=4"
+      }
+    },
+    {
+      "id": 976921297,
+      "name": "system_prompts_leaks",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "stargazers_count": 34863,
+      "language": "HTML",
+      "html_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "owner": {
+        "login": "asgeirtj",
+        "avatar_url": "https://avatars.githubusercontent.com/u/27446620?v=4"
+      }
+    },
+    {
+      "id": 1031912724,
+      "name": "cc-switch",
+      "full_name": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "stargazers_count": 32079,
+      "language": "Rust",
+      "html_url": "https://github.com/farion1231/cc-switch",
+      "owner": {
+        "login": "farion1231",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44939412?v=4"
+      }
+    },
+    {
+      "id": 1170821064,
+      "name": "paperclip",
+      "full_name": "paperclipai/paperclip",
+      "description": "Open-source orchestration for zero-human companies",
+      "stargazers_count": 31830,
+      "language": "TypeScript",
+      "html_url": "https://github.com/paperclipai/paperclip",
+      "owner": {
+        "login": "paperclipai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/264498616?v=4"
+      }
+    },
+    {
+      "id": 969302809,
+      "name": "awesome-claude-code",
+      "full_name": "hesreallyhim/awesome-claude-code",
+      "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+      "stargazers_count": 30393,
+      "language": "Python",
+      "html_url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "owner": {
+        "login": "hesreallyhim",
+        "avatar_url": "https://avatars.githubusercontent.com/u/172150522?v=4"
+      }
+    },
+    {
+      "id": 1052050442,
+      "name": "hello-agents",
+      "full_name": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "stargazers_count": 29601,
+      "language": "Python",
+      "html_url": "https://github.com/datawhalechina/hello-agents",
+      "owner": {
+        "login": "datawhalechina",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46047812?v=4"
+      }
+    },
+    {
+      "id": 1156956890,
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+      "stargazers_count": 28465,
+      "language": "Rust",
+      "html_url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "owner": {
+        "login": "zeroclaw-labs",
+        "avatar_url": "https://avatars.githubusercontent.com/u/261820148?v=4"
+      }
+    },
+    {
+      "id": 1035029907,
+      "name": "pi-mono",
+      "full_name": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "stargazers_count": 27144,
+      "language": "TypeScript",
+      "html_url": "https://github.com/badlogic/pi-mono",
+      "owner": {
+        "login": "badlogic",
+        "avatar_url": "https://avatars.githubusercontent.com/u/514052?v=4"
+      }
+    },
+    {
+      "id": 1104535633,
+      "name": "Antigravity-Manager",
+      "full_name": "lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "stargazers_count": 26989,
+      "language": "Rust",
+      "html_url": "https://github.com/lbjlaq/Antigravity-Manager",
+      "owner": {
+        "login": "lbjlaq",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22748003?v=4"
+      }
+    },
+    {
+      "id": 1000362065,
+      "name": "awesome-copilot",
+      "full_name": "github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "stargazers_count": 26566,
+      "language": "TypeScript",
+      "html_url": "https://github.com/github/awesome-copilot",
+      "owner": {
+        "login": "github",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+      }
+    },
+    {
+      "id": 1131513930,
+      "name": "daily_stock_analysis",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+      "stargazers_count": 24550,
+      "language": "Python",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "owner": {
+        "login": "ZhuLinsen",
+        "avatar_url": "https://avatars.githubusercontent.com/u/42829555?v=4"
+      }
+    },
+    {
+      "id": 1132001614,
+      "name": "agent-browser",
+      "full_name": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stargazers_count": 24318,
+      "language": "Rust",
+      "html_url": "https://github.com/vercel-labs/agent-browser",
+      "owner": {
+        "login": "vercel-labs",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108547162?v=4"
+      }
+    },
+    {
+      "id": 953521037,
+      "name": "next-ai-draw-io",
+      "full_name": "DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "stargazers_count": 24203,
+      "language": "TypeScript",
+      "html_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "owner": {
+        "login": "DayuanJiang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34411969?v=4"
+      }
+    },
+    {
+      "id": 1044296738,
+      "name": "VibeVoice",
+      "full_name": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "stargazers_count": 23981,
+      "language": "Python",
+      "html_url": "https://github.com/microsoft/VibeVoice",
+      "owner": {
+        "login": "microsoft",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      }
+    },
+    {
+      "id": 971241545,
+      "name": "chatterbox",
+      "full_name": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "stargazers_count": 23886,
+      "language": "Python",
+      "html_url": "https://github.com/resemble-ai/chatterbox",
+      "owner": {
+        "login": "resemble-ai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49844015?v=4"
+      }
+    },
+    {
+      "id": 995029641,
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "stargazers_count": 22885,
+      "language": "TypeScript",
+      "html_url": "https://github.com/ruvnet/ruflo",
+      "owner": {
+        "login": "ruvnet",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2934394?v=4"
+      }
+    },
+    {
+      "id": 954873280,
+      "name": "A2A",
+      "full_name": "a2aproject/A2A",
+      "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
+      "stargazers_count": 22743,
+      "language": "Shell",
+      "html_url": "https://github.com/a2aproject/A2A",
+      "owner": {
+        "login": "a2aproject",
+        "avatar_url": "https://avatars.githubusercontent.com/u/217270365?v=4"
+      }
+    },
+    {
+      "id": 1078049937,
+      "name": "DeepSeek-OCR",
+      "full_name": "deepseek-ai/DeepSeek-OCR",
+      "description": "Contexts Optical Compression",
+      "stargazers_count": 22740,
+      "language": "Python",
+      "html_url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "owner": {
+        "login": "deepseek-ai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4"
+      }
+    },
+    {
+      "id": 1006496207,
+      "name": "SuperClaude_Framework",
+      "full_name": "SuperClaude-Org/SuperClaude_Framework",
+      "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
+      "stargazers_count": 21842,
+      "language": "Python",
+      "html_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "owner": {
+        "login": "SuperClaude-Org",
+        "avatar_url": "https://avatars.githubusercontent.com/u/221338871?v=4"
+      }
+    },
+    {
+      "id": 1008713177,
+      "name": "qwen-code",
+      "full_name": "QwenLM/qwen-code",
+      "description": "An open-source AI agent that lives in your terminal.",
+      "stargazers_count": 20938,
+      "language": "TypeScript",
+      "html_url": "https://github.com/QwenLM/qwen-code",
+      "owner": {
+        "login": "QwenLM",
+        "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4"
+      }
+    },
+    {
+      "id": 980205160,
+      "name": "awesome-n8n-templates",
+      "full_name": "enescingoz/awesome-n8n-templates",
+      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+      "stargazers_count": 20456,
+      "language": null,
+      "html_url": "https://github.com/enescingoz/awesome-n8n-templates",
+      "owner": {
+        "login": "enescingoz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60349121?v=4"
+      }
+    },
+    {
+      "id": 1033778670,
+      "name": "AionUi",
+      "full_name": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "stargazers_count": 19754,
+      "language": "TypeScript",
+      "html_url": "https://github.com/iOfficeAI/AionUi",
+      "owner": {
+        "login": "iOfficeAI",
+        "avatar_url": "https://avatars.githubusercontent.com/u/145246968?v=4"
+      }
+    },
+    {
+      "id": 1040906383,
+      "name": "agents.md",
+      "full_name": "agentsmd/agents.md",
+      "description": "AGENTS.md — a simple, open format for guiding coding agents",
+      "stargazers_count": 19284,
+      "language": "TypeScript",
+      "html_url": "https://github.com/agentsmd/agents.md",
+      "owner": {
+        "login": "agentsmd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/247225942?v=4"
+      }
+    },
+    {
+      "id": 957658915,
+      "name": "12-factor-agents",
+      "full_name": "humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "stargazers_count": 18865,
+      "language": "TypeScript",
+      "html_url": "https://github.com/humanlayer/12-factor-agents",
+      "owner": {
+        "login": "humanlayer",
+        "avatar_url": "https://avatars.githubusercontent.com/u/177409041?v=4"
+      }
+    },
+    {
+      "id": 1003143578,
+      "name": "agents-towards-production",
+      "full_name": "NirDiamant/agents-towards-production",
+      "description": " This repository delivers end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches.",
+      "stargazers_count": 18423,
+      "language": "Jupyter Notebook",
+      "html_url": "https://github.com/NirDiamant/agents-towards-production",
+      "owner": {
+        "login": "NirDiamant",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28316913?v=4"
+      }
+    },
+    {
+      "id": 1076426995,
+      "name": "dexter",
+      "full_name": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "stargazers_count": 18162,
+      "language": "TypeScript",
+      "html_url": "https://github.com/virattt/dexter",
+      "owner": {
+        "login": "virattt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/901795?v=4"
+      }
+    },
+    {
+      "id": 988337333,
+      "name": "gemini-fullstack-langgraph-quickstart",
+      "full_name": "google-gemini/gemini-fullstack-langgraph-quickstart",
+      "description": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
+      "stargazers_count": 18021,
+      "language": "Jupyter Notebook",
+      "html_url": "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
+      "owner": {
+        "login": "google-gemini",
+        "avatar_url": "https://avatars.githubusercontent.com/u/161781182?v=4"
+      }
+    },
+    {
+      "id": 1027384981,
+      "name": "deepagents",
+      "full_name": "langchain-ai/deepagents",
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "stargazers_count": 16888,
+      "language": "Python",
+      "html_url": "https://github.com/langchain-ai/deepagents",
+      "owner": {
+        "login": "langchain-ai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/126733545?v=4"
+      }
+    },
+    {
+      "id": 1061041576,
+      "name": "heretic",
+      "full_name": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "stargazers_count": 16480,
+      "language": "Python",
+      "html_url": "https://github.com/p-e-w/heretic",
+      "owner": {
+        "login": "p-e-w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2702526?v=4"
+      }
+    },
+    {
+      "id": 1137846174,
+      "name": "x-algorithm",
+      "full_name": "xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "stargazers_count": 16121,
+      "language": "Rust",
+      "html_url": "https://github.com/xai-org/x-algorithm",
+      "owner": {
+        "login": "xai-org",
+        "avatar_url": "https://avatars.githubusercontent.com/u/130314967?v=4"
+      }
+    },
+    {
+      "id": 1102157650,
+      "name": "llm-council",
+      "full_name": "karpathy/llm-council",
+      "description": "LLM Council works together to answer your hardest questions",
+      "stargazers_count": 16040,
+      "language": "Python",
+      "html_url": "https://github.com/karpathy/llm-council",
+      "owner": {
+        "login": "karpathy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4"
+      }
+    },
+    {
+      "id": 1021895365,
+      "name": "happy",
+      "full_name": "slopus/happy",
+      "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+      "stargazers_count": 15999,
+      "language": "TypeScript",
+      "html_url": "https://github.com/slopus/happy",
+      "owner": {
+        "login": "slopus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/221431600?v=4"
+      }
+    },
+    {
+      "id": 1126947080,
+      "name": "obsidian-skills",
+      "full_name": "kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "stargazers_count": 15926,
+      "language": null,
+      "html_url": "https://github.com/kepano/obsidian-skills",
+      "owner": {
+        "login": "kepano",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10565871?v=4"
+      }
+    },
+    {
+      "id": 1079456184,
+      "name": "claude-scientific-skills",
+      "full_name": "K-Dense-AI/claude-scientific-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "stargazers_count": 15906,
+      "language": "Python",
+      "html_url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "owner": {
+        "login": "K-Dense-AI",
+        "avatar_url": "https://avatars.githubusercontent.com/u/238572432?v=4"
+      }
+    },
+    {
+      "id": 960665821,
+      "name": "mcp-for-beginners",
+      "full_name": "microsoft/mcp-for-beginners",
+      "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+      "stargazers_count": 15537,
+      "language": "Jupyter Notebook",
+      "html_url": "https://github.com/microsoft/mcp-for-beginners",
+      "owner": {
+        "login": "microsoft",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      }
+    },
+    {
+      "id": 984862298,
+      "name": "OpenSpeedy",
+      "full_name": "game1024/OpenSpeedy",
+      "description": "🎮 An open-source game speed modifier.",
+      "stargazers_count": 15462,
+      "language": "C++",
+      "html_url": "https://github.com/game1024/OpenSpeedy",
+      "owner": {
+        "login": "game1024",
+        "avatar_url": "https://avatars.githubusercontent.com/u/168624508?v=4"
+      }
+    },
+    {
+      "id": 1103643573,
+      "name": "skills",
+      "full_name": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "stargazers_count": 15056,
+      "language": "Python",
+      "html_url": "https://github.com/openai/skills",
+      "owner": {
+        "login": "openai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4"
+      }
+    },
+    {
+      "id": 983246568,
+      "name": "DeepCode",
+      "full_name": "HKUDS/DeepCode",
+      "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
+      "stargazers_count": 14981,
+      "language": "Python",
+      "html_url": "https://github.com/HKUDS/DeepCode",
+      "owner": {
+        "login": "HKUDS",
+        "avatar_url": "https://avatars.githubusercontent.com/u/118165258?v=4"
+      }
+    }
+  ],
+  "overall_all": [
+    {
+      "id": 132750724,
+      "name": "build-your-own-x",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "stargazers_count": 482577,
+      "language": "Markdown",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "owner": {
+        "login": "codecrafters-io",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58904235?v=4"
+      }
+    },
+    {
+      "id": 21737465,
+      "name": "awesome",
+      "full_name": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "stargazers_count": 448091,
+      "language": null,
+      "html_url": "https://github.com/sindresorhus/awesome",
+      "owner": {
+        "login": "sindresorhus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170270?v=4"
+      }
+    },
+    {
+      "id": 28457823,
+      "name": "freeCodeCamp",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stargazers_count": 438747,
+      "language": "TypeScript",
+      "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "owner": {
+        "login": "freeCodeCamp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9892522?v=4"
+      }
+    },
+    {
+      "id": 54346799,
+      "name": "public-apis",
+      "full_name": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "stargazers_count": 414740,
+      "language": "Python",
+      "html_url": "https://github.com/public-apis/public-apis",
+      "owner": {
+        "login": "public-apis",
+        "avatar_url": "https://avatars.githubusercontent.com/u/51121562?v=4"
+      }
+    },
+    {
+      "id": 13491895,
+      "name": "free-programming-books",
+      "full_name": "EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stargazers_count": 384465,
+      "language": "Python",
+      "html_url": "https://github.com/EbookFoundation/free-programming-books",
+      "owner": {
+        "login": "EbookFoundation",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14127308?v=4"
+      }
+    },
+    {
+      "id": 85077558,
+      "name": "developer-roadmap",
+      "full_name": "kamranahmedse/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stargazers_count": 351501,
+      "language": "TypeScript",
+      "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+      "owner": {
+        "login": "kamranahmedse",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4"
+      }
+    },
+    {
+      "id": 83222441,
+      "name": "system-design-primer",
+      "full_name": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "stargazers_count": 339909,
+      "language": "Python",
+      "html_url": "https://github.com/donnemartin/system-design-primer",
+      "owner": {
+        "login": "donnemartin",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5458997?v=4"
+      }
+    },
+    {
+      "id": 60493101,
+      "name": "coding-interview-university",
+      "full_name": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "stargazers_count": 338132,
+      "language": null,
+      "html_url": "https://github.com/jwasham/coding-interview-university",
+      "owner": {
+        "login": "jwasham",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3771963?v=4"
+      }
+    },
+    {
+      "id": 1103012935,
+      "name": "openclaw",
+      "full_name": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "stargazers_count": 331093,
+      "language": "TypeScript",
+      "html_url": "https://github.com/openclaw/openclaw",
+      "owner": {
+        "login": "openclaw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4"
+      }
+    },
+    {
+      "id": 21289110,
+      "name": "awesome-python",
+      "full_name": "vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+      "stargazers_count": 288586,
+      "language": "Python",
+      "html_url": "https://github.com/vinta/awesome-python",
+      "owner": {
+        "login": "vinta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/652070?v=4"
+      }
+    },
+    {
+      "id": 36633370,
+      "name": "awesome-selfhosted",
+      "full_name": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "stargazers_count": 281598,
+      "language": null,
+      "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "owner": {
+        "login": "awesome-selfhosted",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24270415?v=4"
+      }
+    },
+    {
+      "id": 177736533,
+      "name": "996.ICU",
+      "full_name": "996icu/996.ICU",
+      "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+      "stargazers_count": 275811,
+      "language": null,
+      "html_url": "https://github.com/996icu/996.ICU",
+      "owner": {
+        "login": "996icu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/48942249?v=4"
+      }
+    },
+    {
+      "id": 88011908,
+      "name": "project-based-learning",
+      "full_name": "practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "stargazers_count": 261499,
+      "language": null,
+      "html_url": "https://github.com/practical-tutorials/project-based-learning",
+      "owner": {
+        "login": "practical-tutorials",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89421154?v=4"
+      }
+    },
+    {
+      "id": 10270250,
+      "name": "react",
+      "full_name": "facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "stargazers_count": 244150,
+      "language": "JavaScript",
+      "html_url": "https://github.com/facebook/react",
+      "owner": {
+        "login": "facebook",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4"
+      }
+    },
+    {
+      "id": 2325298,
+      "name": "linux",
+      "full_name": "torvalds/linux",
+      "description": "Linux kernel source tree",
+      "stargazers_count": 224667,
+      "language": "C",
+      "html_url": "https://github.com/torvalds/linux",
+      "owner": {
+        "login": "torvalds",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1024025?v=4"
+      }
+    },
+    {
+      "id": 63476337,
+      "name": "Python",
+      "full_name": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "stargazers_count": 218986,
+      "language": "Python",
+      "html_url": "https://github.com/TheAlgorithms/Python",
+      "owner": {
+        "login": "TheAlgorithms",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20487725?v=4"
+      }
+    },
+    {
+      "id": 138393139,
+      "name": "the-book-of-secret-knowledge",
+      "full_name": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "stargazers_count": 211262,
+      "language": null,
+      "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "owner": {
+        "login": "trimstray",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31127917?v=4"
+      }
+    },
+    {
+      "id": 11730342,
+      "name": "vue",
+      "full_name": "vuejs/vue",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "stargazers_count": 209992,
+      "language": "TypeScript",
+      "html_url": "https://github.com/vuejs/vue",
+      "owner": {
+        "login": "vuejs",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4"
+      }
+    },
+    {
+      "id": 19415064,
+      "name": "computer-science",
+      "full_name": "ossu/computer-science",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "stargazers_count": 202699,
+      "language": "HTML",
+      "html_url": "https://github.com/ossu/computer-science",
+      "owner": {
+        "login": "ossu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14957346?v=4"
+      }
+    },
+    {
+      "id": 126577260,
+      "name": "javascript-algorithms",
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "stargazers_count": 195807,
+      "language": "JavaScript",
+      "html_url": "https://github.com/trekhleb/javascript-algorithms",
+      "owner": {
+        "login": "trekhleb",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3000285?v=4"
+      }
+    },
+    {
+      "id": 45717250,
+      "name": "tensorflow",
+      "full_name": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "stargazers_count": 194330,
+      "language": "C++",
+      "html_url": "https://github.com/tensorflow/tensorflow",
+      "owner": {
+        "login": "tensorflow",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4"
+      }
+    },
+    {
+      "id": 291137,
+      "name": "ohmyzsh",
+      "full_name": "ohmyzsh/ohmyzsh",
+      "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "stargazers_count": 185594,
+      "language": "Shell",
+      "html_url": "https://github.com/ohmyzsh/ohmyzsh",
+      "owner": {
+        "login": "ohmyzsh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22552083?v=4"
+      }
+    },
+    {
+      "id": 14440270,
+      "name": "You-Dont-Know-JS",
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series (2 published editions) on the JS language.",
+      "stargazers_count": 184534,
+      "language": null,
+      "html_url": "https://github.com/getify/You-Dont-Know-JS",
+      "owner": {
+        "login": "getify",
+        "avatar_url": "https://avatars.githubusercontent.com/u/150330?v=4"
+      }
+    },
+    {
+      "id": 121395510,
+      "name": "CS-Notes",
+      "full_name": "CyC2018/CS-Notes",
+      "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "stargazers_count": 183993,
+      "language": null,
+      "html_url": "https://github.com/CyC2018/CS-Notes",
+      "owner": {
+        "login": "CyC2018",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36260787?v=4"
+      }
+    },
+    {
+      "id": 41881900,
+      "name": "vscode",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stargazers_count": 182990,
+      "language": "TypeScript",
+      "html_url": "https://github.com/microsoft/vscode",
+      "owner": {
+        "login": "microsoft",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      }
+    },
+    {
+      "id": 614765452,
+      "name": "AutoGPT",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stargazers_count": 182737,
+      "language": "Python",
+      "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "owner": {
+        "login": "Significant-Gravitas",
+        "avatar_url": "https://avatars.githubusercontent.com/u/130738209?v=4"
+      }
+    },
+    {
+      "id": 193215554,
+      "name": "n8n",
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stargazers_count": 180602,
+      "language": "TypeScript",
+      "html_url": "https://github.com/n8n-io/n8n",
+      "owner": {
+        "login": "n8n-io",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45487711?v=4"
+      }
+    },
+    {
+      "id": 123458551,
+      "name": "Python-100-Days",
+      "full_name": "jackfrued/Python-100-Days",
+      "description": "Python - 100天从新手到大师",
+      "stargazers_count": 179986,
+      "language": "Jupyter Notebook",
+      "html_url": "https://github.com/jackfrued/Python-100-Days",
+      "owner": {
+        "login": "jackfrued",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7474657?v=4"
+      }
+    },
+    {
+      "id": 31792824,
+      "name": "flutter",
+      "full_name": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "stargazers_count": 175655,
+      "language": "Dart",
+      "html_url": "https://github.com/flutter/flutter",
+      "owner": {
+        "login": "flutter",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4"
+      }
+    },
+    {
+      "id": 2126244,
+      "name": "bootstrap",
+      "full_name": "twbs/bootstrap",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "stargazers_count": 174111,
+      "language": "MDX",
+      "html_url": "https://github.com/twbs/bootstrap",
+      "owner": {
+        "login": "twbs",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2918581?v=4"
+      }
+    },
+    {
+      "id": 1062897,
+      "name": "gitignore",
+      "full_name": "github/gitignore",
+      "description": "A collection of useful .gitignore templates",
+      "stargazers_count": 173166,
+      "language": null,
+      "html_url": "https://github.com/github/gitignore",
+      "owner": {
+        "login": "github",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4"
+      }
+    },
+    {
+      "id": 233472199,
+      "name": "Microsoft-Activation-Scripts",
+      "full_name": "massgravel/Microsoft-Activation-Scripts",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "stargazers_count": 169664,
+      "language": "Batchfile",
+      "html_url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "owner": {
+        "login": "massgravel",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59795046?v=4"
+      }
+    },
+    {
+      "id": 21540759,
+      "name": "awesome-go",
+      "full_name": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "stargazers_count": 168027,
+      "language": "Go",
+      "html_url": "https://github.com/avelino/awesome-go",
+      "owner": {
+        "login": "avelino",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31996?v=4"
+      }
+    },
+    {
+      "id": 658928958,
+      "name": "ollama",
+      "full_name": "ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "stargazers_count": 165918,
+      "language": "Go",
+      "html_url": "https://github.com/ollama/ollama",
+      "owner": {
+        "login": "ollama",
+        "avatar_url": "https://avatars.githubusercontent.com/u/151674099?v=4"
+      }
+    },
+    {
+      "id": 527591471,
+      "name": "stable-diffusion-webui",
+      "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "stargazers_count": 161958,
+      "language": "Python",
+      "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "owner": {
+        "login": "AUTOMATIC1111",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20920490?v=4"
+      }
+    },
+    {
+      "id": 35955666,
+      "name": "the-art-of-command-line",
+      "full_name": "jlevy/the-art-of-command-line",
+      "description": "Master the command line, in one page",
+      "stargazers_count": 160472,
+      "language": null,
+      "html_url": "https://github.com/jlevy/the-art-of-command-line",
+      "owner": {
+        "login": "jlevy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2058167?v=4"
+      }
+    },
+    {
+      "id": 155220641,
+      "name": "transformers",
+      "full_name": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazers_count": 158283,
+      "language": "Python",
+      "html_url": "https://github.com/huggingface/transformers",
+      "owner": {
+        "login": "huggingface",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4"
+      }
+    },
+    {
+      "id": 132464395,
+      "name": "JavaGuide",
+      "full_name": "Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发与系统设计。准备后端技术面试，首选 JavaGuide！",
+      "stargazers_count": 154398,
+      "language": "Java",
+      "html_url": "https://github.com/Snailclimb/JavaGuide",
+      "owner": {
+        "login": "Snailclimb",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29880145?v=4"
+      }
+    },
+    {
+      "id": 574523116,
+      "name": "prompts.chat",
+      "full_name": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "stargazers_count": 153929,
+      "language": "HTML",
+      "html_url": "https://github.com/f/prompts.chat",
+      "owner": {
+        "login": "f",
+        "avatar_url": "https://avatars.githubusercontent.com/u/196477?v=4"
+      }
+    },
+    {
+      "id": 808144141,
+      "name": "FreeDomain",
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "stargazers_count": 153827,
+      "language": "HTML",
+      "html_url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "owner": {
+        "login": "DigitalPlatDev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/126394654?v=4"
+      }
+    },
+    {
+      "id": 307260205,
+      "name": "yt-dlp",
+      "full_name": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "stargazers_count": 152713,
+      "language": "Python",
+      "html_url": "https://github.com/yt-dlp/yt-dlp",
+      "owner": {
+        "login": "yt-dlp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79589310?v=4"
+      }
+    },
+    {
+      "id": 6498492,
+      "name": "javascript",
+      "full_name": "airbnb/javascript",
+      "description": "JavaScript Style Guide",
+      "stargazers_count": 148128,
+      "language": "JavaScript",
+      "html_url": "https://github.com/airbnb/javascript",
+      "owner": {
+        "login": "airbnb",
+        "avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4"
+      }
+    },
+    {
+      "id": 58028038,
+      "name": "HelloGitHub",
+      "full_name": "521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "stargazers_count": 147096,
+      "language": "Python",
+      "html_url": "https://github.com/521xueweihan/HelloGitHub",
+      "owner": {
+        "login": "521xueweihan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8255800?v=4"
+      }
+    },
+    {
+      "id": 599320067,
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "stargazers_count": 146090,
+      "language": "Python",
+      "html_url": "https://github.com/langflow-ai/langflow",
+      "owner": {
+        "login": "langflow-ai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85702467?v=4"
+      }
+    },
+    {
+      "id": 1039520,
+      "name": "youtube-dl",
+      "full_name": "ytdl-org/youtube-dl",
+      "description": "Command-line program to download videos from YouTube.com and other video sites",
+      "stargazers_count": 139934,
+      "language": "Python",
+      "html_url": "https://github.com/ytdl-org/youtube-dl",
+      "owner": {
+        "login": "ytdl-org",
+        "avatar_url": "https://avatars.githubusercontent.com/u/48381040?v=4"
+      }
+    },
+    {
+      "id": 70107786,
+      "name": "next.js",
+      "full_name": "vercel/next.js",
+      "description": "The React Framework",
+      "stargazers_count": 138451,
+      "language": "JavaScript",
+      "html_url": "https://github.com/vercel/next.js",
+      "owner": {
+        "login": "vercel",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4"
+      }
+    },
+    {
+      "id": 62607227,
+      "name": "tech-interview-handbook",
+      "full_name": "yangshun/tech-interview-handbook",
+      "description": "Curated coding interview preparation materials for busy software engineers",
+      "stargazers_count": 138316,
+      "language": "TypeScript",
+      "html_url": "https://github.com/yangshun/tech-interview-handbook",
+      "owner": {
+        "login": "yangshun",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1315101?v=4"
+      }
+    },
+    {
+      "id": 111583593,
+      "name": "scrcpy",
+      "full_name": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "stargazers_count": 137400,
+      "language": "C",
+      "html_url": "https://github.com/Genymobile/scrcpy",
+      "owner": {
+        "login": "Genymobile",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3427627?v=4"
+      }
+    },
+    {
+      "id": 626805178,
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "stargazers_count": 134060,
+      "language": "TypeScript",
+      "html_url": "https://github.com/langgenius/dify",
+      "owner": {
+        "login": "langgenius",
+        "avatar_url": "https://avatars.githubusercontent.com/u/127165244?v=4"
+      }
+    },
+    {
+      "id": 23096959,
+      "name": "go",
+      "full_name": "golang/go",
+      "description": "The Go programming language",
+      "stargazers_count": 133160,
+      "language": "Go",
+      "html_url": "https://github.com/golang/go",
+      "owner": {
+        "login": "golang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4314092?v=4"
+      }
+    }
+  ]
+}
