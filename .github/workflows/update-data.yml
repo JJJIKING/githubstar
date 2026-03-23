@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install Dependencies
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/trending.json
+          git add public/trending.json
           git commit -m "chore: update trending daily data [skip ci]" || echo "No changes to commit"
           git push
 
@@ -58,7 +58,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install Dependencies

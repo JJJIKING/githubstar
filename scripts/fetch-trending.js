@@ -136,7 +136,7 @@ async function main() {
             overall_all
         };
 
-        const outPath = path.join(__dirname, '../src/data/trending.json');
+        const outPath = path.join(__dirname, '../public/trending.json');
         fs.mkdirSync(path.dirname(outPath), { recursive: true });
         fs.writeFileSync(outPath, JSON.stringify(result, null, 2));
         
