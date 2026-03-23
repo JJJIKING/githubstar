@@ -18,7 +18,11 @@ function App() {
       .catch(err => {
         console.error("Failed to load trending data:", err);
         // Fallback to empty structure if file doesn't exist yet
-        setData({ trending_daily: [], trending_weekly: [], trending_monthly: [], overall_yearly: [], overall_all: [], lastUpdated: null });
+        setData({ 
+          trending_daily: [], trending_weekly: [], trending_monthly: [], 
+          overall_weekly: [], overall_monthly: [], overall_yearly: [], overall_all: [], 
+          lastUpdated: null 
+        });
         setLoading(false);
       });
   }, []);
@@ -51,8 +55,8 @@ function App() {
       { id: 'trending_monthly', label: '本月' }
     ],
     overall: [
-      { id: 'trending_weekly', label: '本周' },
-      { id: 'trending_monthly', label: '本月' },
+      { id: 'overall_weekly', label: '本周' },
+      { id: 'overall_monthly', label: '本月' },
       { id: 'overall_yearly', label: '今年' },
       { id: 'overall_all', label: '历史总榜' }
     ]
