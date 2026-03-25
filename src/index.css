@@ -291,3 +291,56 @@ footer {
     align-items: flex-start;
   }
 }
+
+/* Floating Top Nav (i18n & Sponsor) */
+.top-nav {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.lang-toggle, .sponsor-btn {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  padding: 0.6rem 1rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.lang-toggle:hover, .sponsor-btn:hover {
+  background: var(--card-hover);
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sponsor-btn {
+  color: #ffdd44;
+  border-color: rgba(255, 221, 68, 0.3);
+}
+
+.sponsor-btn:hover {
+  border-color: #ffdd44;
+  box-shadow: 0 4px 15px rgba(255, 221, 68, 0.15);
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    position: relative;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
