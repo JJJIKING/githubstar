@@ -1,8 +1,10 @@
 # GitHub Star——追踪全球最受欢迎的开源项目排行榜。
 
+## Visit: https://jjjiking.github.io/githubstar/
+
 **English** | [中文](#github-star-中文)
 
-## 🚀 About
+## 🚀 About 
 
 **GitHub Star** is a platform for discovering the most exciting and trending open-source projects on GitHub. 
 
