@@ -8,6 +8,12 @@
 
 Explore global leaderboards, find inspiring repositories, and stay updated with what's hot in the open-source community.
 
+**GitHub Star** 是一个用于发现 GitHub 上最热门、最有趣开源项目的平台。
+
+探索全球排行榜，发现令人印象深刻的代码仓库，随时掌握开源社区的最新动态。
+
+
+
 ## ✨ Features
 
 - 📊 **Global Leaderboards** - Real-time ranking of top-starred repositories
@@ -50,9 +56,6 @@ If you find this project helpful, consider buying me a coffee to support ongoing
 
 访问地址：https://jjjiking.github.io/githubstar/
 
-## ☕ 支持项目
-
-如果这个项目对你有帮助，欢迎请我喝杯咖啡支持持续开发。
 
 ## 📧 联系方式
 
