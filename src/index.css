@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg-color: #0d1117;
-  --text-primary: #e6edf3;
-  --text-secondary: #7d8590;
-  --accent-color: #2f81f7;
-  --accent-glow: rgba(47, 129, 247, 0.4);
+  /* Extreme dark background like Nexus NFT */
+  --bg-color: #0b0c10;
+  --text-primary: #ffffff;
+  --text-secondary: #8b949e;
+  --accent-color: #2bc0ff;
+  --accent-glow: rgba(43, 192, 255, 0.4);
   --glass-bg: rgba(22, 27, 34, 0.65);
   --glass-border: rgba(255, 255, 255, 0.08);
-  --card-hover: rgba(22, 27, 34, 0.95);
+  --card-hover: rgba(26, 31, 38, 0.95);
+
+  /* Nexus Colors */
+  --magenta: #e81cff;
+  --cyan: #00f0ff;
+
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
@@ -22,42 +28,167 @@ body {
   background-color: var(--bg-color);
   color: var(--text-primary);
   min-height: 100vh;
-  background-image: 
-    radial-gradient(circle at 15% 50%, rgba(47, 129, 247, 0.05), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(47, 129, 247, 0.05), transparent 25%);
+  /* subtle gradient background like Nexus */
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(232, 28, 255, 0.03), transparent 30%),
+    radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.03), transparent 30%);
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  max-width: 900px;
+.app-wrapper {
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 0 4%;
 }
 
-header {
-  text-align: center;
+.container {
+  padding-bottom: 4rem;
+}
+
+/* -------------------
+   Site Navigation 
+------------------- */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.lang-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 0 3px var(--bg-color), 0 0 0 5px #007bff;
+  border-radius: 100px;
+  padding: 0.3rem 1.2rem;
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-toggle-btn:hover {
+  box-shadow: 0 0 0 3px var(--bg-color), 0 0 0 5px #00bfff;
+  transform: translateY(-1px);
+}
+
+.sponsor-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: 1px solid rgba(255, 215, 0, 0.6);
+  border-radius: 100px;
+  padding: 0.3rem 1.2rem;
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s;
+}
+
+.sponsor-btn:hover {
+  background: rgba(255, 215, 0, 0.1);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+  transform: translateY(-1px);
+}
+
+/* -------------------
+   Hero Section 
+------------------- */
+.hero {
+  margin-top: 4rem;
   margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* CENTER */
+  text-align: center;
   animation: fadeInDown 0.8s ease-out;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: -0.05em;
-  margin-bottom: 0.8rem;
-  background: linear-gradient(to right, #e6edf3, #2f81f7);
+.hero-title {
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #00f0ff, #e81cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
+  filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.4)) drop-shadow(0 0 40px rgba(232, 28, 255, 0.3));
 }
 
-header p {
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--text-secondary);
-  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 650px;
+  margin-bottom: 3.5rem;
 }
 
-/* Glassmorphism nav */
-nav {
+/* -------------------
+   Tab Navigation 
+------------------- */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-btn {
+  background: var(--glass-bg);
+  color: var(--text-secondary);
+  border: 1px solid var(--glass-border);
+  padding: 0.8rem 2.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.category-btn.active {
+  background: var(--accent-color);
+  color: #000;
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+.tab-nav {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
@@ -72,11 +203,11 @@ nav {
   animation: fadeIn 1s ease-out;
 }
 
-nav button {
+.tab-btn {
   background: transparent;
   border: none;
   color: var(--text-secondary);
-  padding: 0.75rem 2rem;
+  padding: 0.6rem 1.8rem;
   border-radius: 100px;
   font-family: inherit;
   font-size: 1rem;
@@ -85,25 +216,28 @@ nav button {
   transition: all 0.3s ease;
 }
 
-nav button:hover {
+.tab-btn:hover {
   color: var(--text-primary);
   background: rgba(255, 255, 255, 0.05);
 }
 
-nav button.active {
+.tab-btn.active {
   background: var(--accent-color);
-  color: white;
+  color: #000;
+  font-weight: 600;
   box-shadow: 0 4px 15px var(--accent-glow);
 }
 
-/* List animation */
+
+/* -------------------
+   Repo List / Cards 
+------------------- */
 .repo-list {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
-/* Glassmorphism card */
 .repo-card {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
@@ -122,7 +256,7 @@ nav button.active {
 .repo-card:hover {
   transform: translateY(-4px);
   background: var(--card-hover);
-  border-color: rgba(47, 129, 247, 0.3);
+  border-color: rgba(43, 192, 255, 0.4);
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5), 0 0 20px var(--accent-glow);
 }
 
@@ -130,7 +264,7 @@ nav button.active {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-secondary);
-  min-width: 2.5rem;
+  min-width: 3.5rem;
   text-align: right;
   opacity: 0.5;
   margin-top: 0.5rem;
@@ -142,6 +276,7 @@ nav button.active {
   border-radius: 50%;
   border: 2px solid var(--glass-border);
   transition: transform 0.3s ease;
+  flex-shrink: 0;
 }
 
 .repo-card:hover .avatar {
@@ -152,33 +287,49 @@ nav button.active {
 .repo-info {
   flex: 1;
   min-width: 0;
+  /* CRITICAL for flex item truncation */
 }
 
+/* FLEX FIX: Stars moving to next line issue */
 .repo-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  /* Do not wrap! */
 }
 
 .repo-name {
   font-size: 1.4rem;
-  font-weight: 600;
   color: var(--text-primary);
-  word-break: break-all;
+  flex: 1;
+  min-width: 0;
+  /* Allows text truncation */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.repo-name span {
+.repo-name span:first-child {
   color: var(--text-secondary);
   font-weight: 400;
 }
 
+.name-bold {
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .stars {
+  flex-shrink: 0;
+  /* Ensures stars don't squash/wrap */
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -248,99 +399,104 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Animations */
 @keyframes fadeInDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Settings */
+@media (max-width: 800px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 600px) {
-  nav {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .hero-stats {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .hero-btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-primary,
+  .hero-secondary {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-actions {
+    gap: 1rem;
+  }
+
+  .nav-btn:last-child {
+    display: none;
+    /* Hide creator button on extra small screens */
+  }
+
+  .tab-nav {
     flex-direction: column;
     border-radius: 16px;
     width: 100%;
   }
-  nav button {
+
+  .tab-btn {
     width: 100%;
     border-radius: 8px;
   }
+
   .repo-card {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     padding: 1.25rem;
-    position: relative;
   }
-  .rank {
-    position: absolute;
-    top: 1.25rem;
-    right: 1.25rem;
-    margin-top: 0;
-  }
+
   .repo-header {
     flex-direction: column;
     align-items: flex-start;
   }
-}
 
-/* Floating Top Nav (i18n & Sponsor) */
-.top-nav {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  display: flex;
-  gap: 1rem;
-  z-index: 100;
-}
-
-.lang-toggle, .sponsor-btn {
-  background: var(--glass-bg);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--glass-border);
-  color: var(--text-primary);
-  padding: 0.6rem 1rem;
-  border-radius: 100px;
-  font-weight: 600;
-  font-size: 0.85rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-}
-
-.lang-toggle:hover, .sponsor-btn:hover {
-  background: var(--card-hover);
-  border-color: var(--accent-color);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.sponsor-btn {
-  color: #ffdd44;
-  border-color: rgba(255, 221, 68, 0.3);
-}
-
-.sponsor-btn:hover {
-  border-color: #ffdd44;
-  box-shadow: 0 4px 15px rgba(255, 221, 68, 0.15);
-}
-
-@media (max-width: 600px) {
-  .top-nav {
-    position: relative;
-    top: 0;
-    right: 0;
-    justify-content: center;
-    margin-bottom: 2rem;
+  .repo-name {
+    width: 100%;
   }
 }
