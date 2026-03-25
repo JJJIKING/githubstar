@@ -1,4 +1,4 @@
-# GitHub Star——实时追踪全球最受欢迎的开源项目排行榜。
+# GitHub Star——追踪全球最受欢迎的开源项目排行榜。
 
 **English** | [中文](#github-star-中文)
 
