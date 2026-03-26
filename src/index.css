@@ -499,10 +499,18 @@ footer {
     width: 100%;
     gap: 0.5rem;
     margin-bottom: 0.3rem;
+    align-items: flex-start;
   }
 
   .repo-name {
     font-size: 1.15rem;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+
+  .description {
+    -webkit-line-clamp: 4;
   }
 
   .meta {
