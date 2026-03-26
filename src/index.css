@@ -311,6 +311,7 @@ body {
 .stars-row {
   margin-bottom: 0.8rem;
   display: flex;
+  justify-content: flex-end; /* PUSHES STARS TO THE RIGHT */
 }
 
 .repo-header {
