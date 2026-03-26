@@ -308,9 +308,13 @@ body {
   flex-direction: column;
 }
 
+.stars-row {
+  margin-bottom: 0.8rem;
+  display: flex;
+}
+
 .repo-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 0.5rem;
 }
@@ -321,9 +325,9 @@ body {
   flex: 1;
   min-width: 0;
   display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal; /* ALLOW WRAP */
+  word-break: break-all;
+  line-height: 1.3;
 }
 
 .repo-name span:first-child {
@@ -339,15 +343,14 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.95rem;
   color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.08); /* slightly brighter */
   padding: 0.3rem 0.8rem;
   border-radius: 100px;
-  border: 1px solid var(--glass-border);
+  border: 1px solid var(--accent-color); /* cyan border to make it pop */
   white-space: nowrap;
-  margin-left: auto; /* Ensures it stays on the right even if no language exists */
 }
 
 .stars svg {
@@ -358,14 +361,11 @@ body {
 
 .description {
   color: var(--text-secondary);
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.5;
   margin-bottom: 1.2rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  height: 3rem; /* Fixed height for 2 lines to keep cards uniform */
+  display: block; /* REMOVE BOX CLAMP */
+  word-break: break-word;
 }
 
 .meta {
@@ -444,17 +444,20 @@ footer {
   }
 
   .repo-name {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .description {
     font-size: 0.95rem;
-    -webkit-line-clamp: 2;
-    height: 2.8rem;
+    margin-bottom: 1rem;
   }
 
   .stars {
     padding: 0.25rem 0.6rem;
     font-size: 0.85rem;
+  }
+  
+  .stars-row {
+    margin-bottom: 0.5rem;
   }
 }
