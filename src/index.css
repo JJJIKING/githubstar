@@ -479,41 +479,53 @@ footer {
   }
 
   .repo-card {
-    padding: 1rem;
-    gap: 0.6rem;
-    /* Keeps flex row but scales down appropriately */
+    padding: 1.2rem 1rem;
+    gap: 0.8rem;
     align-items: flex-start;
   }
 
   .rank {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     min-width: 2rem;
+    margin-top: 0.2rem;
   }
 
   .avatar {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
+    margin-top: 0.2rem;
   }
 
   .repo-header {
     width: 100%;
-    gap: 0.5rem;
-    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: column; /* STACKS name and stars vertically */
     align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
   }
 
   .repo-name {
+    width: 100%;
     font-size: 1.15rem;
     white-space: normal;
     word-break: break-word;
     line-height: 1.4;
   }
 
+  .stars {
+    align-self: flex-start;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
   .description {
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: unset; /* Fully display description without cutting */
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .meta {
-    flex-wrap: wrap; /* Allows language tags to wrap if needed */
+    flex-wrap: wrap; 
   }
 }
