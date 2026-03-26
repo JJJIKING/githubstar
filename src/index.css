@@ -126,7 +126,8 @@ body {
   margin-bottom: 3.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center; /* CENTER */
+  align-items: center;
+  /* CENTER */
   text-align: center;
   animation: fadeInDown 0.8s ease-out;
 }
@@ -251,7 +252,6 @@ body {
   text-decoration: none;
   color: inherit;
   animation: slideUp 0.5s ease-out backwards;
-  position: relative; /* REQUIRED FOR ABSOLUTE STARS */
 }
 
 .repo-card:hover {
@@ -311,9 +311,10 @@ body {
 
 .repo-header {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.5rem;
-  padding-right: 130px; /* SPACE FOR ABSOLUTE STARS */
+  margin-bottom: 0.8rem;
+  gap: 1rem;
 }
 
 .repo-name {
@@ -322,7 +323,8 @@ body {
   flex: 1;
   min-width: 0;
   display: block;
-  white-space: normal; /* ALLOW WRAP */
+  white-space: normal;
+  /* ALLOW WRAP */
   word-break: break-all;
   line-height: 1.3;
 }
@@ -337,9 +339,6 @@ body {
 }
 
 .stars {
-  position: absolute; /* FLOATS AT TOP RIGHT */
-  top: 1.75rem;
-  right: 1.75rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -347,10 +346,13 @@ body {
   font-size: 0.95rem;
   color: var(--text-primary);
   background: rgba(255, 255, 255, 0.08);
+  /* slightly brighter */
   padding: 0.3rem 0.8rem;
   border-radius: 100px;
   border: 1px solid var(--accent-color);
+  /* cyan border to make it pop */
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .stars svg {
@@ -364,13 +366,15 @@ body {
   font-size: 1.05rem;
   line-height: 1.5;
   margin-bottom: 1.2rem;
-  display: block; /* REMOVE BOX CLAMP */
+  display: block;
+  /* REMOVE BOX CLAMP */
   word-break: break-word;
 }
 
 .meta {
   display: flex;
-  justify-content: space-between; /* Pushes stars to the right */
+  justify-content: space-between;
+  /* Pushes stars to the right */
   align-items: center;
   margin-top: auto;
 }
@@ -409,13 +413,25 @@ footer {
 
 /* Animations */
 @keyframes fadeInDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Mobile Settings */
@@ -431,7 +447,6 @@ footer {
   .repo-card {
     padding: 1.25rem;
     gap: 1rem;
-    padding-bottom: 3.5rem; /* SPACE FOR MOBILE STARS IF NEEDED, BUT HERE WE PIN THEM TOP RIGHT */
   }
 
   .rank {
@@ -448,19 +463,12 @@ footer {
     font-size: 1.15rem;
   }
 
-  .repo-header {
-    padding-right: 110px;
-  }
-
   .description {
     font-size: 0.95rem;
     margin-bottom: 1rem;
-    padding-right: 0;
   }
 
   .stars {
-    top: 1.1rem;
-    right: 1.1rem;
     padding: 0.25rem 0.6rem;
     font-size: 0.85rem;
   }

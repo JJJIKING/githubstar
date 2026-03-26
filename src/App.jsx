@@ -91,7 +91,7 @@ function App() {
           </svg>
           <span className="logo-text">GITHUB STAR</span>
         </div>
-        <div className="nav-actions" style={{gap: '1.5rem'}}>
+        <div className="nav-actions" style={{ gap: '1.5rem' }}>
           <button className="lang-toggle-btn" onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}>
             <span className="lang-icon">{lang === 'zh' ? '🇬🇧' : '🇨🇳'}</span>
             <span className="lang-text">{lang === 'zh' ? 'EN' : '中文'}</span>
@@ -163,20 +163,21 @@ function App() {
                       loading="lazy"
                     />
                     <div className="repo-info">
-                      <div className="stars">
-                        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
-                          <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path>
-                        </svg>
-                        {repo.stargazers_count.toLocaleString()}
-                        {repo.growth_stars > 0 && (
-                          <span className="stars-growth">+{repo.growth_stars.toLocaleString()}</span>
-                        )}
-                      </div>
-                      
                       <div className="repo-header">
                         <div className="repo-name">
                           <span>{repo.owner?.login} / </span>
                           <span className="name-bold">{repo.name}</span>
+                        </div>
+                        <div className="stars">
+                          <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+                            <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path>
+                          </svg>
+                          {repo.stargazers_count.toLocaleString()}
+                          {repo.growth_stars > 0 && (
+                            <span style={{ color: '#3fb950', fontSize: '0.85em', marginLeft: '0.4rem' }}>
+                              +{repo.growth_stars.toLocaleString()}
+                            </span>
+                          )}
                         </div>
                       </div>
 
