@@ -305,27 +305,23 @@ body {
 .repo-info {
   flex: 1;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.repo-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 0.8rem;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "name stars"
+    "desc desc"
+    "meta meta";
+  column-gap: 1rem;
+  row-gap: 0.5rem;
 }
 
 .repo-name {
+  grid-area: name;
   font-size: 1.4rem;
   color: var(--text-primary);
-  flex: 1;
   min-width: 0;
   display: block;
-  white-space: normal;
-  /* ALLOW WRAP */
-  word-break: break-all;
+  word-break: break-word; /* Fixes ugly mid-word breaking! */
   line-height: 1.3;
 }
 
@@ -339,20 +335,19 @@ body {
 }
 
 .stars {
+  grid-area: stars;
   display: flex;
   align-items: center;
+  align-self: flex-start;
   gap: 0.4rem;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--text-primary);
   background: rgba(255, 255, 255, 0.08);
-  /* slightly brighter */
   padding: 0.3rem 0.8rem;
   border-radius: 100px;
   border: 1px solid var(--accent-color);
-  /* cyan border to make it pop */
   white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .stars svg {
@@ -362,19 +357,18 @@ body {
 }
 
 .description {
+  grid-area: desc;
   color: var(--text-secondary);
   font-size: 1.05rem;
   line-height: 1.5;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.5rem;
   display: block;
-  /* REMOVE BOX CLAMP */
   word-break: break-word;
 }
 
 .meta {
+  grid-area: meta;
   display: flex;
-  justify-content: space-between;
-  /* Pushes stars to the right */
   align-items: center;
   margin-top: auto;
 }
@@ -463,12 +457,23 @@ footer {
     font-size: 1.15rem;
   }
 
+  .repo-info {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "name"
+      "desc"
+      "meta"
+      "stars";
+    row-gap: 0.6rem;
+  }
+
   .description {
     font-size: 0.95rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   .stars {
+    justify-self: flex-end; /* Locks it to the bottom RIGHT */
     padding: 0.25rem 0.6rem;
     font-size: 0.85rem;
   }
