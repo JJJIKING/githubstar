@@ -156,14 +156,31 @@ function App() {
                     style={{ animationDelay: `${Math.min(index * 0.02, 1)}s` }}
                   >
                     <div className="rank">{lang === 'zh' ? t.rank + (index + 1) + t.rankSuffix : t.rank + (index + 1)}</div>
-                    <img src={repo.owner.avatar_url} alt={`${repo.owner.login} avatar`} className="avatar" loading="lazy" />
-
+                    <img
+                      className="avatar"
+                      src={repo.owner?.avatar_url || repo.avatar || `https://github.com/${repo.author || repo.owner?.login}.png`}
+                      alt=""
+                      loading="lazy"
+                    />
                     <div className="repo-info">
                       <div className="repo-header">
                         <div className="repo-name">
-                          <span>{repo.owner.login} / </span>
+                          <span>{repo.owner?.login} / </span>
                           <span className="name-bold">{repo.name}</span>
                         </div>
+                      </div>
+
+                      <p className="description">
+                        {repo.description || t.noDesc}
+                      </p>
+
+                      <div className="meta">
+                        {repo.language && (
+                          <div className="language">
+                            <span className="lang-color" style={{ backgroundColor: getLanguageColor(repo.language) }}></span>
+                            {repo.language}
+                          </div>
+                        )}
                         <div className="stars">
                           <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
                             <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path>
@@ -175,19 +192,6 @@ function App() {
                             </span>
                           )}
                         </div>
-                      </div>
-
-                      <div className="description">
-                        {repo.description || t.noDesc}
-                      </div>
-
-                      <div className="meta">
-                        {repo.language && (
-                          <div className="language">
-                            <span className="lang-color" style={{ backgroundColor: getLanguageColor(repo.language) }}></span>
-                            {repo.language}
-                          </div>
-                        )}
                       </div>
                     </div>
                   </a>
